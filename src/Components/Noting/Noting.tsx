@@ -49,7 +49,7 @@ function NotingButton({ value, note, setNote }: NotingButtonProps) {
         <button
             onClick={() => setNote(parseInt(value))}
             className={
-                "h-12 w-12 rounded-full bg-[#262F38] text-center " +
+                "h-12 w-12 rounded-full text-center " +
                 (note === parseInt(value)
                     ? "bg-Light-Grey text-White hover:bg-Orange hover:text-White"
                     : "text-Medium-Grey bg-[#262F38] hover:bg-Orange hover:text-White")
