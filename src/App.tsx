@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="flex h-full w-full items-center justify-center bg-Very-Dark-Blue">
             {showTy ? (
-                <div className="flex h-full w-full flex-col items-center justify-center">
+                <div className="flex h-full w-full animate-fadein flex-col items-center justify-center">
                     <ThanksYou note={note} />
                     <div className="text-center text-White">
                         Challenge by{" "}

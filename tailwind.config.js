@@ -14,6 +14,18 @@ export default {
             screens: {
                 xs: "540px",
             },
+            // that is animation class
+            animation: {
+                fadein: "fadein 1s ease-out",
+            },
+
+            // that is actual animation
+            keyframes: {
+                fadein: {
+                    "0%": { opacity: 0 },
+                    "100%": { opacity: 1 },
+                },
+            },
         },
     },
     plugins: [],
